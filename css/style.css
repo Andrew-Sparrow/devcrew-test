@@ -2,8 +2,12 @@
   --dark_bg: #1E252b;
   --white: #ffffff;
   --dark_blue: #29374E;
-  --main_font: 'Poppins', "Arial", sans-serif;;
+  --main_font: 'Poppins', "Arial", sans-serif;
+  ;
   --desktop_width: 1224px;
+  --gray: rgba(255, 255, 255, 0.55);
+  --orange: rgba(255, 110, 48, 1);
+  --light_white: #FDF5FF;
 }
 
 h1,
@@ -27,4 +31,92 @@ body {
   margin-left: auto;
   margin-right: auto;
   border: 1px solid white;
+}
+
+.header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+}
+
+.logo {
+  width: 139px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: auto;
+}
+
+.logo__name {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 22px;
+  font-weight: 600;
+  padding-top: 5px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  width: 430px;
+  justify-content: space-between;
+  margin: 0;
+  margin-right: 190px;
+}
+
+.login__signin,
+.menu__item a {
+  font-size: 16px;
+  color: var(--gray);
+}
+
+.menu__item  {
+  font-weight: 500;
+  padding-top: 14px;
+  text-decoration: none;
+}
+
+.menu__item a {
+  text-decoration: none;
+}
+
+.menu__arrow {
+  padding-bottom: 2px;
+}
+
+.button {
+  box-sizing: border-box;
+  display: block;
+  background-color: var(--orange);
+  color: var(--light_white);
+  border-radius: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-decoration: none;
+  padding-left: 33px;
+}
+
+.login {
+  display: flex;
+  width: 206px;
+  justify-content: space-between;
+}
+
+.login__signup {
+  width: 118px;
+}
+
+.login__signin {
+  text-decoration: none;
+  padding-top: 12px;
+}
+
+.top__moto {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.top__wrapper {
+  width: 600px;
 }
