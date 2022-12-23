@@ -1,13 +1,11 @@
-# AEON-html
+# DevCrew-Test
 
 ## Test-Task project
-made with three adaptive versions mobile-tablet-desktop
 
-My portfolio:
-##### https://andrew-sparrow.github.io/ap-portfolio
 
-Live version of this project is on Github pages:
-##### https://andrew-sparrow.github.io/AEON-html/
+##### - <ins>[My portfolio](https://andrew-sparrow.github.io/ap-portfolio)</ins>
+
+##### - <ins>[Live version of this project on Github pages](https://andrew-sparrow.github.io/devcrew-test/)</ins>
 
 
 ![Alt text](img/screenshot.png?raw=true "Title")
