@@ -15,6 +15,7 @@
   --light_white: rgba(255, 255, 255, 0.8);
   --pale_gray: rgba(255, 255, 255, 0.15);
   --gray_footer: rgba(255, 255, 255, 0.9);
+  --gray_input: rgba(255, 255, 255, 0.38);
 }
 
 h1,
@@ -102,6 +103,7 @@ body {
   line-height: 24px;
   text-decoration: none;
   padding-left: 33px;
+  border: none;
 }
 
 .login {
@@ -146,6 +148,7 @@ body {
 
 .search {
   position: relative;
+  margin-bottom: 110px;
 }
 
 .search__button {
@@ -158,14 +161,21 @@ body {
 
 .search-input {
   width: 500px;
+  box-sizing: border-box;
   background-color: var(--dark_grey);
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 40px;
+  padding-right: 150px;
+  font-size: 14px;
+  color: var(--gray_input);
+  border: double 3px transparent;
   border-radius: 15px;
-  border-width: 4px;
-  border-style: solid;
-  border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+  background-image:
+    linear-gradient(var(--dark_grey), var(--dark_grey)),
+    linear-gradient(to right, #495661, transparent);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
 }
 
 .search__icon {
