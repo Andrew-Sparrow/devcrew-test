@@ -10,6 +10,8 @@
   --orange: #ff6e30;
   --light_white: #FDF5FF;
   --dark_grey: #283036;
+  --orange_pale: #FFA5378C;
+  --orange_bright: #FFA537;
 }
 
 h1,
@@ -190,7 +192,7 @@ body {
   width: 427px;
   font-size: 18px;
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-bottom: 90px;
   color: var(--gray);
   margin-left: auto;
   margin-right: auto;
@@ -199,6 +201,10 @@ body {
 
 .tools {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  justify-content: space-between;
 }
 
 .tool {
@@ -207,6 +213,11 @@ body {
   padding: 33px;
   box-sizing: border-box;
   border: 1px solid white;
+  margin-bottom: 100px;
+}
+
+.tool__tittle {
+  margin-bottom: 5px;
 }
 
 .tool__top {
@@ -234,6 +245,10 @@ body {
   text-decoration: none;
   font-size: 16px;
   padding-top: 16px;
+}
+
+.tool_paid {
+  color: var(--orange_pale);
 }
 
 
