@@ -6,8 +6,9 @@
   ;
   --desktop_width: 1224px;
   --gray: rgba(255, 255, 255, 0.55);
-  --orange: rgba(255, 110, 48, 1);
+  --orange: #ff6e30;
   --light_white: #FDF5FF;
+  --dark_grey: #283036;
 }
 
 h1,
@@ -116,6 +117,7 @@ body {
   background-image: url("../img/Illustration.png");
   background-repeat: no-repeat;
   background-position-x: right;
+  margin-bottom: 200px;
 }
 
 .top__moto {
@@ -150,7 +152,7 @@ body {
 
 .search-input {
   width: 500px;
-  background-color: #283036;
+  background-color: var(--dark_grey);
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 40px;
@@ -164,4 +166,20 @@ body {
   position: absolute;
   top: 20px;
   left: 10px;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+}
+
+.socials__item:hover a svg rect {
+  fill: var(--dark_grey);
+}
+
+.popular__title {
+  font-size: 48px;
+  font-weight: 500;
+  text-align: center;
 }
