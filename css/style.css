@@ -12,6 +12,7 @@
   --dark_grey: #283036;
   --orange_pale: #FFA5378C;
   --orange_bright: #FFA537;
+  --grey_border: #808080;
 }
 
 h1,
@@ -251,4 +252,21 @@ body {
   color: var(--orange_pale);
 }
 
+.load-more {
+  display: block;
+  box-sizing: border-box;
+  width: 184px;
+  border: 1px solid var(--grey_border);
+  border-radius: 8px;
+  color: var(--orange);
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 35px;
+  padding-right: 35px;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  font-weight: 500;
+}
 
