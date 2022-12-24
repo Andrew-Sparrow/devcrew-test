@@ -13,6 +13,7 @@
   --orange_pale: #FFA5378C;
   --orange_bright: #FFA537;
   --grey_border: #808080;
+  --light_white: rgba(255, 255, 255, 0.8);
 }
 
 h1,
@@ -268,5 +269,35 @@ body {
   margin-right: auto;
   font-size: 20px;
   font-weight: 500;
+  margin-bottom: 200px;
 }
 
+.brands {
+  border-radius: 25px;
+  background-repeat: no-repeat;
+  background-image: url("../img/brand_bg.png");
+  padding-left: 80px;
+  padding-right: 80px;
+  box-sizing: border-box;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  margin-bottom: 200px;
+}
+
+.brands__description {
+  color: var(--light_white);
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.trademarks {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 0;
+  margin-bottom: 0;
+}
