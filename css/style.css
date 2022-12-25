@@ -245,7 +245,7 @@ body {
 
 .tool__top {
   display: flex;
-  margin-bottom: 30px;
+  margin-bottom: 23px;
 }
 
 .tool__name {
@@ -255,7 +255,7 @@ body {
 .tool__description {
   color: var(--gray);
   font-size: 16px;
-  margin-bottom: 30px;
+  margin-bottom: 23px;
 }
 
 .tool__buttons {
@@ -378,6 +378,11 @@ body {
   width: 288px;
 }
 
+.newcomer .tool--active {
+  background-image: url(../img/card_bg_small.png);
+  background-repeat: no-repeat;
+}
+
 .slider {
   margin-bottom: 250px;
 }
@@ -392,8 +397,6 @@ body {
 .slider__content {
   display: flex;
   width: 849px;
-  /* margin-left: 50px; */
-  /* margin-right: 50px; */
 }
 
 .slider__description {
