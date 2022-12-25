@@ -156,6 +156,7 @@ body {
   top: 7px;
   left: 359px;
   padding-left: 4px;
+  cursor: pointer;
 }
 
 .search-input {
