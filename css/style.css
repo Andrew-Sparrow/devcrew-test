@@ -406,6 +406,9 @@ body {
   padding-left: 60px;
   line-height: 30px;
   padding-top: 137px;
+  background-image: url(../img/commas.png);
+  background-repeat: no-repeat;
+  background-position-y: 89px;
 }
 
 .slider__button {
