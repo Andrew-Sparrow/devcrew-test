@@ -263,11 +263,44 @@ body {
   justify-content: space-between;
 }
 
+.tool__left {
+  display: flex;
+  justify-content: space-between;
+  width: 96px;
+}
+
+.tool__button {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tool__button:hover {
+  background-color: var(--dark_grey);
+}
+
 .tool__visit {
   color: var(--gray);
   text-decoration: none;
   font-size: 16px;
   padding-top: 16px;
+}
+
+.tool--active {
+  background-image: url(../img/card_bg.png);
+  position: relative;
+  top: -20px;
+}
+
+.tool--active .button {
+  width: 106px;
+}
+
+.tool--active .favorite svg path{
+  fill: #FD3B41;
 }
 
 .tool_paid {
