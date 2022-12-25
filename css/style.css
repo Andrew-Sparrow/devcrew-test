@@ -299,10 +299,6 @@ body {
   width: 106px;
 }
 
-.tool--active .favorite svg path{
-  fill: #FD3B41;
-}
-
 .tool_paid {
   color: var(--orange_pale);
 }
@@ -454,6 +450,10 @@ body {
 
 .contributor__title {
   width: 553px;
+}
+
+.contributor .search {
+  width: 549px;
 }
 
 .contributor__description {
